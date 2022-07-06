@@ -2,7 +2,7 @@ using ProgressBars
 using Random
 
 function password_genie()
-    num_of_passwords = parse(Int64, Base.prompt("How many passwords do you want to generate?"))
+    num_of_passwords = parse(Int64, Base.prompt("How many passwords do you need?"))
     password_length = parse(Int64, Base.prompt("How long should each password be?"))
 
     password_list = []
